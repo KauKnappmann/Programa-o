@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <script
+          src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous"></script>
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <style>
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+.content {
+  min-height: calc(100px- 20px);
+  padding: 40px 40px 0 40px;
+}
+.footer {
+  height: 50px;
+}
+</style>
+    <title>Listagem de Veterinários</title>
+  </head>
+  <body style="background-color: #F5F5F5">
+    <div class="navbar-fixed">
+    <nav class="teal darken-3">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Gado e Veterinário</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="veterinario.php">Cadastrar</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+    <h1  style="font-family: 'Abel', sans-serif;"><center>Listagem de Veterinários</center></h1>
+    <table class="centered" border="1" style="background-color: #FFFAFA">
+        <tr>
+        <thead style="background-color: #E0FFFF">
+        <th>ID</th>
+        <th>Nome</th>
+        <th>CRMV</th>
+        <th>Telefone</th>
+       <th>Foto</th>
+     <!--  <th>Informações</th>-->
+        <th>Ver mais</th>
+        <th>Editar</th>
+        <th>Excluir</th>
+        </thead>
+        </tr>
+        <tbody>
+
+            {itens}
+
+        </tbody>
+    </table>
+   <!--  <footer>
+      Kauana Knappmann @2020
+    </footer> -->
+    <div class="content">
+        Kauana Knappmann
+      </div>
+      <footer class="footer"></footer>
+  </body>
+</html>
