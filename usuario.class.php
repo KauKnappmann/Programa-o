@@ -5,6 +5,7 @@
     var $Nome;
     var $Idade;
     var $Ranking;
+    var
 
     //Métodos - Funções
 
@@ -25,6 +26,9 @@
   $MeuUsuario = new Usuario();
 
   $MeuUsuario->Nome = 'Kauana';
+  $MeuUsuario->Idade = '18';
+  $MeuUsuario->Ranking = '4';
+  $MeuUsuario->IniciaJogo();
 
   echo $MeuUsuario->Nome;
 
