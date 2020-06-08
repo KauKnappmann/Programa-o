@@ -5,12 +5,15 @@
     var $Nome;
     var $Idade;
     var $Ranking;
-    var
 
     //Métodos - Funções
 
-    function IniciaJogo(){
-      //faz alfo
+    function GetNome(){
+        return $this->Nome;
+    }
+
+    function SetNome($Nome){
+        $this->Nome = $Nome;
     }
 
     function AvaliaAcertos($Ranking){
