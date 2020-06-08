@@ -12,9 +12,21 @@
       //faz alfo
     }
 
-    function AvaliaAcertos()
+    function AvaliaAcertos($Ranking){
+
+    }
+
+    function FazMedia(){
+
+    }
 
   }
+
+  $MeuUsuario = new Usuario();
+
+  $MeuUsuario->Nome = 'Kauana';
+
+  echo $MeuUsuario->Nome;
 
 
 ?>
