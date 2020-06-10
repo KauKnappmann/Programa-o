@@ -5,6 +5,7 @@
     var $Nome;
     var $Email;
     var $SuaMensagem;
+    var $Resposta;
 
     //Métodos - Funções
     function GetNome(){
@@ -29,6 +30,10 @@
 
     function GetSuaMensagem($GetSuaMensagem){
         $this->GetSuaMensagem = $GetSuaMensagem;
+    }
+
+    function MandaResposta(){
+        return "Obrigada pela ajuda.";
     }
 
   }
