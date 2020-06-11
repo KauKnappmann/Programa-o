@@ -1,6 +1,6 @@
 <?php
 
-  require_onde('Usuario.class.php');
+  require_once('Usuario.class.php');
 
   //Primeiro Objeto
   $MeuUsuario = new Usuario();

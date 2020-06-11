@@ -14,19 +14,18 @@
       //faz algo
       return 1;
     }
-    function DeleteImg(){
+    function DeleteImg($Codigo){
       //faz algo
+      $this->Codigo = $Codigo;
     }
-    function UploadImg(){
+    function UpdateImg(){
       //faz algo
+      return 2;
     }
     function ShowImg(){
       //faz algo
-      return $CaminhoImg;
+      return $this->CaminhoImg;
     }
   }
-  $NovaImg = new Galeria_Fotos();
-  $NovaImg->Codigo = 123;
 
-  echo $NovaImg->Codigo;
 ?>
