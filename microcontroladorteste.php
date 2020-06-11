@@ -1,6 +1,6 @@
 <?php
 
-require_onde('microcontrolador.class.php');
+require_once('microcontrolador.class.php');
 
 //Primeiro Objeto
 $NovoDado = new Microcontrolador();
