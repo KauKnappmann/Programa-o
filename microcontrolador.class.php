@@ -8,7 +8,7 @@
 
     //Métodos
     function Setup(){
-
+      return 'Tudo ok';
     }
     function ReiniciarCom(){
         return 'Reiniciando';
